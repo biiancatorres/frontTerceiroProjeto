@@ -99,3 +99,7 @@ function editProduct(id) {
 
 // Buscar e exibir os produtos quando a página for carregada
 window.addEventListener('load', fetchProducts);
+
+app.listen(4000, '0.0.0.0', () => {
+  console.log('Servidor rodando...');
+});
