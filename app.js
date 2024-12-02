@@ -5,7 +5,7 @@ const inputId = document.querySelector('#id');
 const inputName = document.querySelector('#name');
 const inputDescription = document.querySelector('#description');
 const inputPrice = document.querySelector('#price');
-const backendUrl = 'http://100.25.153.58:3000';
+const backendUrl = 'http://100.25.153.58:4000';
 
 let products = []; // Variável global para armazenar os produtos
 
